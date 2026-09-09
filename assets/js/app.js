@@ -17,14 +17,6 @@ let volumeEl = document.querySelector('.volume');
 let song = [
     {
         id: '1',
-        pic: 'assets/imgs/man2.webp',
-        title: 'من2',
-        singer: 'امیر تتلو',
-        src: 'assets/songs/Man2.mp3',
-    },
-
-    {
-        id: '2',
         pic: 'assets/imgs/HameRaftand.jpg',
         title: 'همه رفتند',
         singer: 'رضا بهرام',
@@ -32,7 +24,7 @@ let song = [
     },
 
     {
-        id: '3',
+        id: '2',
         pic: 'assets/imgs/hamdam.jpg',
         title: 'همدم',
         singer: 'رضا بهرام',
@@ -40,7 +32,7 @@ let song = [
     },
 
     {
-        id: '4',
+        id: '3',
         pic: 'assets/imgs/yar.jpg',
         title: 'یار',
         singer: 'رضا بهرام',
@@ -48,7 +40,7 @@ let song = [
     },
 
     {
-        id: '5',
+        id: '4',
         pic: 'assets/imgs/bezanBaran.webp',
         title: 'بزن باران',
         singer: 'ایهام',
@@ -56,7 +48,7 @@ let song = [
     },
 
     {
-        id: '6',
+        id: '5',
         pic: 'assets/imgs/biToHarShab.webp',
         title: 'بی تو هر شب',
         singer: 'نوان',
@@ -64,7 +56,7 @@ let song = [
     },
 
     {
-        id: '7',
+        id: '6',
         pic: 'assets/imgs/khodahafez.webp',
         title: 'خداحافظ',
         singer: 'عرفان طهماسبی',
