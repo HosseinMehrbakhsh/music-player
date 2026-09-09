@@ -1,0 +1,57 @@
+:root {
+    --lighter_gray: hsl(209, 18%, 80%);
+    --light_gray: hsl(209, 18%, 70%);
+}
+
+body {
+    background-color: hsl(209, 18%, 20%);
+}
+
+.player_box {
+    width: 450px;
+    background-color: hsl(209, 18%, 35%);
+}
+
+.bg_gray_blue {
+    background-color: hsl(209, 18%, 42%);
+}
+
+.song_name {
+    color: var(--lighter_gray);
+}
+
+.singer_name {
+    color: var(--light_gray);
+}
+
+.song_time {
+    color: var(--light_gray);
+}
+
+.play_btn {
+    background-color: var(--light_gray);
+    transition-duration: 0.3s;
+}
+
+.control_btn {
+    transition-duration: 0.3s;
+}
+
+.icon_volum {
+    color: var(--light_gray);
+    font-size: 22px;
+}
+
+.icon_rewind {
+    color: var(--light_gray);
+    font-size: 20px;
+    transform: rotate(180deg);
+}
+
+.control_btn:hover {
+    background-color: hsl(209, 18%, 50%);
+}
+
+.play_btn:hover {
+    background-color: var(--lighter_gray);
+}
